@@ -65,4 +65,5 @@ else:
   print("Insert Records End =", now)
   cursor.close()
   conn.close()
+  
 
