@@ -27,7 +27,7 @@ jobs:
 
       # Runs a bandit action using https://github.com/marketplace/actions/bandit-action
       - name: Bandit Action
-      - uses: mdegis/bandit-action@v1.1
+        uses: mdegis/bandit-action@v1.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           path: "."
